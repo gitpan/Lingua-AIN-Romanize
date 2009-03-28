@@ -1,9 +1,9 @@
 ---
 name: Lingua-AIN-Romanize
-version: 0.0.1
+version: 0.0.2
 author:
   - 'OHTSUKA Ko-hei <nene@kokogiko.net>'
-abstract: Convert Aynu language between roman characters and Kana characters.
+abstract: アイヌ語のローマ字表記とカタカナ表記を相互変換するモジュール
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
@@ -14,7 +14,7 @@ requires:
 provides:
   Lingua::AIN::Romanize:
     file: lib/Lingua/AIN/Romanize.pm
-    version: 0.0.1
+    version: 0.0.2
 generated_by: Module::Build version 0.3
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

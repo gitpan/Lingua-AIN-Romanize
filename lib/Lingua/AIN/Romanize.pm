@@ -3,7 +3,7 @@ package Lingua::AIN::Romanize;
 use strict;
 use warnings;
 use Carp;
-use version; our $VERSION = qv('0.0.1');
+use version; our $VERSION = qv('0.0.2');
 use vars qw(@ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
 use Exporter;
 @ISA = qw(Exporter);
@@ -247,9 +247,11 @@ sub ain_setregex_vc {
 1;
 __END__
 
+=encoding utf-8
+
 =head1 NAME
 
-Lingua::AIN::Romanize - Convert Aynu language between roman characters and Kana characters.
+Lingua::AIN::Romanize - アイヌ語のローマ字表記とカタカナ表記を相互変換するモジュール
 
 =head1 SYNOPSIS
 
@@ -281,7 +283,7 @@ UTF-8での変換を行い、Unicode3.2で定義された小文字カナを利�
 という判断がつかなかったため、対応していません。
 が、正確な情報が判れば対応可能ですので、情報をお寄せいただければ幸いです。
 
-ベースとなっている変換ロジックはkumanesirの公開されている変換ロジック
+ベースとなっている変換ロジックはkumanesirさんの公開されている変換ロジック
 L<http://sapporo.cool.ne.jp/kumanesir/kanahenkan.htm>をベースに、CDエクス
 プレス・アイヌ語での事例等も参考に行いました。
 
